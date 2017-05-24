@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+  /*border: 1px white dashed;*/
+}
+/*nav-list and .nav-link are my pink header bar- need to add links to these. logo image is my El Burro sign*/
+ #nav-list {
+
+  background-color:#ff66b6;
+  position: fixed;
+  color:black;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+  font-size: 20px;
+  margin-top: -15px;
+
+}
+
+#nav-list {
+  float: left;
+  list-style-type: none;
+}
+
+#logo_image {
+  height: 65px;
+  width: 125px;
+  padding-top: 10px;
+  margin-left: 35%;
+}
+
+/*hero is my Mexican streetfood and image of guac*/
+.hero-image {
+    background-image: url(/Users/n0251107/Desktop/One_page_love/images/hero-image.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-family: verdana;
+    font-size: 50px;
+    display: block;
+    vertical-align: middle;
+}
+.bienvenidos {
+    background-color: #eae9e6;
+}
+
+.bienvenidos h2 {
+    font-size: 51px;
+    padding-bottom: 35px;
+}
+
+.bienvenidos p {
+    font-size: 24px;
+    line-height: 26px;
+}
+.bienvenidos .inner {
+    padding: 50px;
+    max-width: 610px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.authentic {
+    background: #ffba55;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+/*photos*/
+  #taco {
+    background-image: url(/Users/n0251107/Desktop/One_page_love/images/tacos.jpg);
+    float:left;
+    width: 50%;
+    height: 500px;
+  }
+  #sign {
+    background-image: url(/Users/n0251107/Desktop/One_page_love/images/sign.jpg);
+    float: right;
+    width: 50%;
+    height: 500px;
+  }
+  /*menu*/
+  #menu {
+    background-color: #ffba55;
+    padding: 100px;
+    font-size: 22px;
+
+}
+
+  .menu h1{
+    font-size: 44px;
+    text-align: center;
+    padding-bottom: 75px;
+    vertical-align: bottom;
+
+
+    }
+
+    .steps {
+      display: flex;
+      border-bottom: 4px solid black;
+    }
+    .number {
+      border-right: 4px solid black;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .choose {
+      padding: 10px;
+      font-weight: bold;
+
+    }
+
+  .menu-1 .menu-2 .menu-3 .menu-4 {
+      border-width: 4px;
+      border-color: black;
+      padding-left: 25px;
+  }
+
+.menu-1 {
+    width: 350px;
+    margin-left: 225px;
+    border: 4px solid black;
+    position: absolute;
+    /*padding-top: 0px;*/
+  }
+
+  .menu-1 p {padding-left: 25px; font-weight: bold;}
+
+.menu-2 {
+    width: 500px;
+    margin-left: 625px;
+    border: 4px solid black;
+
+  }
+
+    .menu-2 p {padding-left: 25px; font-weight: bold;}
+
+.menu-3 {
+    width: 500px;
+    border: 4px solid black;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 75px;
+}
+
+  .menu-3 p {padding-left: 25px; font-weight: bold;}
+
+.menu-4 {
+  width: 350px;
+  margin-left: 625px;
+  border: 4px solid black;
+  margin-top: 40px;
+}
+
+  .menu-4 p {padding-left: 25px; font-weight: bold;}
+
+
+  .order a:link, .order a:visited {
+    background-color: #ffba55;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 4px solid black;
+    margin: 50px 200px 50px 400px;
+    width: 400px;
+}
+
+.order a:hover, .order a:active {
+    background-color: #ff66b6;
+}
+
+#gallery {
+  background-color: #ffba55
+}
+
+.gallery h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+
+}
+#gallery1 {
+  background-image: url(images/gallery1.jpg);
+  width: 75%;
+  height: 500px;
+  margin-left: 15%;
+  background-repeat: no-repeat;
+}
+/*how do I toggle through more photos?*/
+
+#info {
+  background-color: #eae9e6;
+  height: 700px;
+  padding-top: 100px;
+}
+
+.location {
+float: left;
+text-align: center;
+font-size: 25px;
+margin-top: 15%;
+margin-left: 100px;
+line-height: .5;
+font-weight: bold;
+}
+/*why is map only working if 500px or greater?..*/
+#map {
+background-image: url(images/map.png);
+height: 500px;
+background-repeat: no-repeat;
+margin-left:30%;
+}
+
+.hours {
+float: right;
+text-align: center;
+font-size: 25px;
+margin-top: -400px;
+margin-right: 100px;
+line-height: .5;
+font-weight: bold;
+
+}
+
+
+
+#footer {
+    background-color: #ff66b6;
+    color:black;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+    font-weight: bold;
+}
+
+li {
+  font-size: 22px;
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
+
+li a {
+/*make links for facebook and instagram*/
+}
